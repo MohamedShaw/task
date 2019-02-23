@@ -1,0 +1,3 @@
+# Referenced at E:\task\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:24
+-keep class com.task.MainApplication { <init>(...); }
+
