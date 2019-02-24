@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\task\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "D:\\shawky\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SoHabiby\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\09d6c3dfe003db2b24cb764b57d2d74b\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\osama\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\f128aa4d46355989cc064ca3b57e3576\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\SoHabiby\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\182f7cd1289713d25fdeebc46d74c654\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\osama\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\a12f960ad80d89e2e3ecbe67b86e2e5e\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -1,7 +1,7 @@
-#Fri Feb 22 22:24:13 GMT-08:00 2019
-base.0=E\:\\task\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Sat Feb 23 20:20:21 EET 2019
+base.0=D\:\\shawky\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=E\:\\task\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.1=D\:\\shawky\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

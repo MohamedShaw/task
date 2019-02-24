@@ -21,6 +21,9 @@ import com.reactnativenavigation.react.ReactGateway;
  import com.facebook.react.ReactActivityDelegate;
  import com.facebook.react.ReactRootView;
  import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
+import com.marianhello.bgloc.react.BackgroundGeolocationPackage;
+import com.opensettings.OpenSettingsPackage;
+
 
 public class MainApplication extends NavigationApplication {
      
@@ -46,7 +49,9 @@ public class MainApplication extends NavigationApplication {
          return Arrays.<ReactPackage>asList(
              new VectorIconsPackage(),
              new MapsPackage(),
-             new RNGestureHandlerPackage()
+             new RNGestureHandlerPackage(),
+             new BackgroundGeolocationPackage(),
+             new OpenSettingsPackage()
 
          );
      }

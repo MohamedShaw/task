@@ -1,21 +1,14 @@
-import AppView from './AppView';
-import AppText from './AppText';
-import AppIcon from './AppIcon';
-import AppSpinner from './AppSpinner';
-import AppInput from './AppInput';
-import AppHeader from './AppHeader';
-import AppHorizontalScrollView from './AppHorizontalScrollView';
-import AppButton from "./AppButton"
-import AppDebounce from "./AppDebounce";
+
+export { default as AppView } from './View';
+export { default as AppText } from './Text';
+export { default as AppIcon } from './Icon';
+export { default as AppSpinner } from './Indicator';
+export { default as AppButton } from './Button';
 export {
-  AppView,
-  AppText,
-  AppIcon,
-  AppSpinner,
-  AppInput,
-  AppHeader,
-  AppHorizontalScrollView,
-  AppButton,
-  AppDebounce
-};
+  responsiveHeight,
+  responsiveWidth,
+  responsiveFontSize,
+  moderateScale,
+} from './utils/responsiveDimensions';
+
 

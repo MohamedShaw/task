@@ -1,16 +1,35 @@
 import React, {Component} from "react"
 import { Navigation } from "react-native-navigation";
 
+
+import { Provider } from 'react-redux';
+import store from '../store';
+
 import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
 
 import FindRest from "./FindRest";
-import Home from "./Home";
-
+import LocationMap from "./mapScreen/LocationMap";
 
 
 export const registerScreens=()=> {
-  Navigation.registerComponent(`FindRest`, () => gestureHandlerRootHOC( FindRest ));
-  Navigation.registerComponent(`Home`, () => gestureHandlerRootHOC( Home ));
+
+  Navigation.registerComponentWithRedux(
+    'FindRest',
+    () => gestureHandlerRootHOC(FindRest),
+    Provider,
+    store,
+  );
+  Navigation.registerComponentWithRedux(
+    'LocationMap',
+    () => gestureHandlerRootHOC(LocationMap),
+    Provider,
+    store,
+  );
+ 
+ 
+
+
+
 
 
 }
